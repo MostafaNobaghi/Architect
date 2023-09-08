@@ -1,0 +1,20 @@
+{
+    "name": "mostafanobaghi/architect",
+    "description": "This package map an input data to your desired structure",
+    "type": "library",
+    "require": {
+        "symfony/yaml": "^6.3"
+    },
+    "authors": [
+        {
+            "name": "mostafa nobaghi",
+            "email": "mostafa.nbz@gmail.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "MostafaNobaghi\\Architect\\": "src/"
+        }
+    },
+    "minimum-stability": "dev"
+}
