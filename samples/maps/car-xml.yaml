@@ -1,0 +1,6 @@
+# yourObject: location of value in source input
+model: name
+engine:
+  model: engine
+  horse_power: horse
+  torque: torque

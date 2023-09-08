@@ -1,0 +1,6 @@
+# yourObject: location of value in source input
+model: ((getModel))
+engine:
+  model: engine
+  horse_power: power.horse
+  torque: power.torque
