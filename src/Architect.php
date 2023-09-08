@@ -16,10 +16,10 @@ use MostafaNobaghi\Architect\Inputs\InputFactory;
  */
 class Architect
 {
-    /**
-     * @param Input|string $input
-     * @param Map|string $map
-     */
+
+    private Map $map;
+    private Input $input;
+
     public function __construct(Input|string $input, Map|string $map)
     {
         $this->setMap($map);

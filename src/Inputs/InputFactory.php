@@ -11,7 +11,7 @@ final class InputFactory
     {
     }
 
-    public static function getInput($input)
+    public static function getInput($input): Input
     {
         return (new self($input))->makeInput();
     }
